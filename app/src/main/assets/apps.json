@@ -1,0 +1,124 @@
+{
+  "apps": [
+        {
+            "name": "康康买药APP正式环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rogrand.kkmy",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/wdkk",
+            "appIcon": "kkmy_icon",
+            "buildName": "Android_WDKK",
+            "buildEnvironment": "pe",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "康康买药APP测试环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rogrand.kkmy.te",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/wdkk_test",
+            "appIcon": "kkmy_te_icon",
+            "buildName": "Android_WDKK",
+            "buildEnvironment": "te",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "康康买药APP预上线环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rogrand.kkmy.ppe",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/wdkk_pre",
+            "appIcon": "kkmy_ppe_icon",
+            "buildName": "Android_WDKK",
+            "buildEnvironment": "ppe",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "我的诊所APP正式环境",
+            "versionCode":0,
+            "versionName": "",
+            "packageName": "com.rograndec.myclinic",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/myclinic",
+            "appIcon": "myclinic_icon",
+            "buildName": "Android_MyClinic",
+            "buildEnvironment": "pe",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "我的诊所APP测试环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rograndec.myclinic.te",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/myclinic_test",
+            "appIcon": "myclinic_te_icon",
+            "buildName": "Android_MyClinic",
+            "buildEnvironment": "te",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "我的诊所APP预上线环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rograndec.myclinic.ppe",
+            "isInstalled": false,
+            "pgyerUrl": "",
+            "appIcon": "myclinic_ppe_icon",
+            "buildName": "Android_MyClinic",
+            "buildEnvironment": "ppe",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "我的医药APP正式环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rogrand.kkmy.merchants",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/rgmph",
+            "appIcon": "mph_icon",
+            "buildName": "Android_Mph",
+            "buildEnvironment": "pe",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "我的医药APP测试环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rogrand.kkmy.merchants.te",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/rgmph_test",
+            "appIcon": "mph_te_icon",
+            "buildName": "Android_Mph",
+            "buildEnvironment": "te",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "我的医药APP预计上线环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rogrand.kkmy.merchants.ppe",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/rgmph_pre",
+            "appIcon": "mph_ppe_icon",
+            "buildName": "Android_Mph",
+            "buildEnvironment": "ppe",
+            "buildBranch": "4.4.8"
+        },
+        {
+            "name": "健康和平APP正式环境",
+            "versionCode": 0,
+            "versionName": "",
+            "packageName": "com.rogrand.kkmy.cqhp",
+            "isInstalled": false,
+            "pgyerUrl": "https://www.pgyer.com/jkhp",
+            "appIcon": "jkhp_icon",
+            "buildName": "Android_WDKK",
+            "buildEnvironment": "cqhp",
+            "buildBranch": "4.4.8"
+        }
+    ]
+}
