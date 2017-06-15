@@ -16,7 +16,7 @@ public class MyTest {
     @Test
     public void testRead(){
         Context targetContext = InstrumentationRegistry.getTargetContext();
-       // ReadContantsEngine.readContants(targetContext);
-        ReadContantsEngine.getAppsToJson(targetContext);
+       // ReadJsonEngine.readContants(targetContext);
+        ReadJsonEngine.getAppsToJson(targetContext);
     }
 }

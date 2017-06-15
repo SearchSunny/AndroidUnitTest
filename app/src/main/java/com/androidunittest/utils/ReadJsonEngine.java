@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
  *
  */
 
-public class ReadContantsEngine {
+public class ReadJsonEngine {
 
     public static void getAppsToJson(Context context) {
         try {
