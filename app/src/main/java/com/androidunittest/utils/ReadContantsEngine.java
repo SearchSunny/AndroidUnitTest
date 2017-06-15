@@ -1,9 +1,6 @@
 package com.androidunittest.utils;
 
-import android.content.ContentResolver;
 import android.content.Context;
-import android.database.Cursor;
-import android.net.Uri;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -19,35 +16,6 @@ import java.io.InputStreamReader;
  */
 
 public class ReadContantsEngine {
-
-    //读取手机联系人
-    public static void readContants(Context context) {
-        Log.d("MV","调用读取手机联系人方法readContants()");
-        ContentResolver contentResolver = context.getContentResolver();
-        Uri uri = Uri.parse("content://com.android.contacts/contacts");
-        Uri uridatas = Uri.parse("content://com.android.contacts/data");
-
-        Cursor cursor = contentResolver.query(uri, new String[]{"_id"}, null, null, null);
-        //循环取出数据
-        while (cursor.moveToNext()){
-            System.out.println(cursor.getString(0));
-
-            String id = cursor.getString(0);//获取到联系人的id
-
-            Cursor cursor1 = contentResolver.query(uridatas, new String[]{"data1", "mimetype"}, "raw_contact_id = ?", new String[]{id}, null);
-            while (cursor1.moveToNext()){
-                String data = cursor1.getString(0);
-                String mimetype = cursor1.getString(1);
-                if (mimetype.equals("vnd.android.cursor.item/name")){
-                    Log.d("MV","第"+id+"个用户 名字:"+data);
-                } else if (mimetype.equals("vnd.android.cursor.item/phone_v2")){
-                    Log.d("MV","第"+id+"个用户 电话:"+data);
-                }
-            }
-            cursor1.close();
-        }
-        cursor.close();
-    }
 
     public static void getAppsToJson(Context context) {
         try {
