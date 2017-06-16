@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 /**
- *
+ *AndroidJUnit4实现单元测试
  */
 @RunWith(AndroidJUnit4.class)
 public class MyTest {

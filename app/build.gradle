@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    //ADD THESE LINES:
+    packagingOptions {
+        exclude 'LICENSE.txt'
+    }
 }
 
 dependencies {
@@ -26,8 +30,13 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta3'
+
+    androidTestCompile 'com.android.support:support-annotations:25.3.1'
     // Required for local unit tests (JUnit 4 framework)
     testCompile 'junit:junit:4.12'
     //单元测试框架-参考http://www.jianshu.com/p/9d988a2f8ff7
     //testCompile "org.robolectric:robolectric:3.3.2"
+    //ADD THESE LINES:
+    androidTestCompile 'com.android.support.test:runner:0.2'
+    androidTestCompile 'com.android.support.test:rules:0.2'
 }
